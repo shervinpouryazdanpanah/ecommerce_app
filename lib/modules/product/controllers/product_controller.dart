@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import '../../../core/services/api_client.dart';
-import '../models/product_model.dart';
+import '../../../shared/models/product_model.dart';
 
 class ProductController extends GetxController {
   final ApiClient apiClient = Get.find();

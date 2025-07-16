@@ -1,4 +1,4 @@
-import 'package:ecommerce/modules/product/models/product_model.dart';
+import 'package:ecommerce/shared/models/product_model.dart';
 import 'package:ecommerce/shared/constants/app_constants.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
