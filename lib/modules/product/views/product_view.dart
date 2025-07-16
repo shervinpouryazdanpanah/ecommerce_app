@@ -1,6 +1,6 @@
+import 'package:ecommerce/modules/product/controllers/product_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controllers/product_controller.dart';
 
 class ProductsView extends GetView<ProductController> {
   const ProductsView({super.key});
