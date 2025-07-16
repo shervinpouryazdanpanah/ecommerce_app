@@ -7,7 +7,7 @@ part 'api_client.g.dart';
 
 @RestApi(baseUrl: AppConstants.endpoint)
 abstract class ApiClient {
-  factory ApiClient(Dio dio, {String baseUrl}) = _ApiClient;
+  factory ApiClient(Dio dio) = _ApiClient;
 
   @GET("/products")
   Future<List<ProductModel>> getProducts();
