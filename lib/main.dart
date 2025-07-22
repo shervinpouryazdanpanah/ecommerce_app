@@ -14,13 +14,13 @@ class MyApp extends StatelessWidget {
   static final routes = [
     GetPage(name: '/login', page: () => Login()),
     GetPage(name: '/categories', page: () => Categories()),
-    ];
+  ];
 
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/login',
+      initialRoute: '/categories',
       getPages: routes,
     );
   }
