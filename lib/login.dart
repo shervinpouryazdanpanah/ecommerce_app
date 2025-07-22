@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Login extends StatelessWidget {
+  const Login({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -69,8 +71,8 @@ class Login extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                   style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all(Colors.blue),
-                    padding: MaterialStateProperty.all(
+                    backgroundColor: WidgetStateProperty.all(Colors.blue),
+                    padding: WidgetStateProperty.all(
                         EdgeInsets.symmetric(vertical: 20)),
                   ),
                   onPressed: () {},
